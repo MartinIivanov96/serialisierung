@@ -10,7 +10,8 @@ public class Car extends Vehicle{
     private List<Seat> seats;
     private List<Wheel> wheels;
 
-    Car(int id, String model, Engine engine){
+    public Car() {}
+    public Car(int id, String model, Engine engine){
         this.setId(id);
         this.model = model;
         this.engine = engine;
@@ -50,5 +51,11 @@ public class Car extends Vehicle{
         seats.add(seat);
     }
 
+    public void setSeats(List<Seat> seats) {
+        this.seats = seats;
+    }
 
+    public void setWheels(List<Wheel> wheels) {
+        this.wheels = wheels;
+    }
 }

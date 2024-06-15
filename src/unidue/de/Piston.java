@@ -6,7 +6,8 @@ public class Piston implements Serializable {
     private static final long serialVersionUID = 1L;
     private double thickness;
 
-    Piston(double thickness){
+    public Piston() {    }
+    public Piston(double thickness){
         this.thickness = thickness;
     }
 

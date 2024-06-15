@@ -6,7 +6,8 @@ public class Seat implements Serializable {
     private static final long serialVersionUID = 1L;
     private Color color;
 
-    Seat(Color color) {
+    public Seat() {    }
+    public Seat(Color color) {
         this.color = color;
     }
 

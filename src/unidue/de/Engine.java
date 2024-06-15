@@ -9,7 +9,8 @@ public class Engine implements Serializable {
     private double size;
     private List<Piston> pistons;
 
-    Engine(double size){
+    public Engine() {    }
+    public Engine(double size){
         this.size = size;
         this.pistons = new ArrayList<>();
     }
@@ -30,5 +31,8 @@ public class Engine implements Serializable {
         return this.pistons;
     }
 
+    public void setPistons(List<Piston> pistons) {
+        this.pistons = pistons;
+    }
 
 }

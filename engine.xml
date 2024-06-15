@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.6" class="java.beans.XMLDecoder">
+ <object class="unidue.de.Engine">
+  <void property="pistons">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="unidue.de.Piston">
+      <void property="thickness">
+       <double>12.2</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="size">
+   <double>5.0</double>
+  </void>
+ </object>
+</java>
